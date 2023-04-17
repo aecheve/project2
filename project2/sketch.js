@@ -12,6 +12,7 @@ function setup() {
   song = loadSound('assets/Quirky_Dog.mp3');
   mycanvas.position(0,0);
   mycanvas.style("z-index", "-1");
+  song.setVolume(0.05);
 
 }
 
